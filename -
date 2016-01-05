@@ -1,0 +1,719 @@
+execve("/usr/bin/pactl", ["pactl", "subscribe"], [/* 72 vars */]) = 0
+brk(0)                                  = 0x1c47000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cf6000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/tls/x86_64/libpulse.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/pulseaudio/tls/x86_64", 0x7fff08679ee0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/tls/libpulse.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/pulseaudio/tls", 0x7fff08679ee0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/x86_64/libpulse.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/pulseaudio/x86_64", 0x7fff08679ee0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libpulse.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/pulseaudio", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=131873, ...}) = 0
+mmap(NULL, 131873, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f8b85cd5000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libpulse.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\261\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=299752, ...}) = 0
+mmap(NULL, 2393976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b8588d000
+mprotect(0x7f8b858d4000, 2097152, PROT_NONE) = 0
+mmap(0x7f8b85ad4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x47000) = 0x7f8b85ad4000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-4.0.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\1\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=422272, ...}) = 0
+mmap(NULL, 2518072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b85626000
+mprotect(0x7f8b8568c000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b8588b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x65000) = 0x7f8b8588b000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libsndfile.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libsndfile.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=409696, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cd4000
+mmap(NULL, 2522608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b853be000
+mprotect(0x7f8b8541f000, 2097152, PROT_NONE) = 0
+mmap(0x7f8b8561f000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x61000) = 0x7f8b8561f000
+mmap(0x7f8b85622000, 15856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8b85622000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libcap.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcap.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18952, ...}) = 0
+mmap(NULL, 2114160, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b851b9000
+mprotect(0x7f8b851bd000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b853bc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f8b853bc000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0po\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=141574, ...}) = 0
+mmap(NULL, 2217264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b84f9b000
+mprotect(0x7f8b84fb4000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b851b3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7f8b851b3000
+mmap(0x7f8b851b5000, 13616, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8b851b5000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P#\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31792, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cd3000
+mmap(NULL, 2129016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b84d93000
+mprotect(0x7f8b84d9a000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b84f99000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f8b84f99000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b84b8f000
+mprotect(0x7f8b84b92000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b84d91000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f8b84d91000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1071552, ...}) = 0
+mmap(NULL, 3166568, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b84889000
+mprotect(0x7f8b8498e000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b84b8d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x104000) = 0x7f8b84b8d000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1840928, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cd2000
+mmap(NULL, 3949248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b844c4000
+mprotect(0x7f8b8467f000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b8487e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ba000) = 0x7f8b8487e000
+mmap(0x7f8b84884000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8b84884000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0(\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=43464, ...}) = 0
+mmap(NULL, 2138608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b842b9000
+mprotect(0x7f8b842c3000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b844c2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f8b844c2000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@h\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=281552, ...}) = 0
+mmap(NULL, 2377408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b84074000
+mprotect(0x7f8b840b8000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b842b7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x43000) = 0x7f8b842b7000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libxcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \226\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=125392, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cd1000
+mmap(NULL, 2220648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b83e55000
+mprotect(0x7f8b83e72000, 2097152, PROT_NONE) = 0
+mmap(0x7f8b84072000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7f8b84072000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libwrap.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libwrap.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p-\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=36632, ...}) = 0
+mmap(NULL, 2134176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b83c4b000
+mprotect(0x7f8b83c53000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b83e52000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f8b83e52000
+mmap(0x7f8b83e54000, 160, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8b83e54000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libasyncns.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libasyncns.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\23\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22744, ...}) = 0
+mmap(NULL, 2117952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b83a45000
+mprotect(0x7f8b83a4a000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b83c49000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f8b83c49000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libFLAC.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libFLAC.so.8", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\203\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=199208, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cd0000
+mmap(NULL, 2294336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b83814000
+mprotect(0x7f8b83844000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b83a43000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2f000) = 0x7f8b83a43000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libvorbisenc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@:\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=2943096, ...}) = 0
+mmap(NULL, 5038224, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b83345000
+mprotect(0x7f8b835f8000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b837f7000, 118784, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b2000) = 0x7f8b837f7000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libvorbis.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libvorbis.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320-\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=182584, ...}) = 0
+mmap(NULL, 2277712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b83118000
+mprotect(0x7f8b83144000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b83343000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7f8b83343000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libogg.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libogg.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\32\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=34624, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85ccf000
+mmap(NULL, 2129936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b82f0f000
+mprotect(0x7f8b82f16000, 2097152, PROT_NONE) = 0
+mmap(0x7f8b83116000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f8b83116000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libXau.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14456, ...}) = 0
+mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b82d0b000
+mprotect(0x7f8b82d0d000, 2097152, PROT_NONE) = 0
+mmap(0x7f8b82f0d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f8b82f0d000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\23\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22616, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cce000
+mmap(NULL, 2117856, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b82b05000
+mprotect(0x7f8b82b0a000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b82d09000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f8b82d09000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libnsl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`A\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=97296, ...}) = 0
+mmap(NULL, 2202328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b828eb000
+mprotect(0x7f8b82902000, 2093056, PROT_NONE) = 0
+mmap(0x7f8b82b01000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f8b82b01000
+mmap(0x7f8b82b03000, 6872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8b82b03000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8b826d0000
+mprotect(0x7f8b826e7000, 2097152, PROT_NONE) = 0
+mmap(0x7f8b828e7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f8b828e7000
+mmap(0x7f8b828e9000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8b828e9000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85ccd000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85ccc000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cca000
+arch_prctl(ARCH_SET_FS, 0x7f8b85cca740) = 0
+mprotect(0x7f8b8487e000, 16384, PROT_READ) = 0
+mprotect(0x7f8b828e7000, 4096, PROT_READ) = 0
+mprotect(0x7f8b82b01000, 4096, PROT_READ) = 0
+mprotect(0x7f8b82d09000, 4096, PROT_READ) = 0
+mprotect(0x7f8b82f0d000, 4096, PROT_READ) = 0
+mprotect(0x7f8b83116000, 4096, PROT_READ) = 0
+mprotect(0x7f8b84b8d000, 4096, PROT_READ) = 0
+mprotect(0x7f8b83343000, 4096, PROT_READ) = 0
+mprotect(0x7f8b837f7000, 114688, PROT_READ) = 0
+mprotect(0x7f8b83a43000, 4096, PROT_READ) = 0
+mprotect(0x7f8b851b3000, 4096, PROT_READ) = 0
+mprotect(0x7f8b83c49000, 4096, PROT_READ) = 0
+mprotect(0x7f8b83e52000, 4096, PROT_READ) = 0
+mprotect(0x7f8b84072000, 4096, PROT_READ) = 0
+mprotect(0x7f8b84f99000, 4096, PROT_READ) = 0
+mprotect(0x7f8b842b7000, 4096, PROT_READ) = 0
+mprotect(0x7f8b844c2000, 4096, PROT_READ) = 0
+mprotect(0x7f8b84d91000, 4096, PROT_READ) = 0
+mprotect(0x7f8b853bc000, 4096, PROT_READ) = 0
+mprotect(0x7f8b8561f000, 8192, PROT_READ) = 0
+mprotect(0x7f8b8588b000, 4096, PROT_READ) = 0
+mprotect(0x7f8b85ad4000, 4096, PROT_READ) = 0
+mprotect(0x60c000, 4096, PROT_READ)     = 0
+mprotect(0x7f8b85cf8000, 4096, PROT_READ) = 0
+munmap(0x7f8b85cd5000, 131873)          = 0
+set_tid_address(0x7f8b85ccaa10)         = 4807
+set_robust_list(0x7f8b85ccaa20, 24)     = 0
+futex(0x7fff0867a720, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f8b85cca740) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7f8b84fa19f0, [], SA_RESTORER|SA_SIGINFO, 0x7f8b84fab340}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f8b84fa1a80, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f8b84fab340}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0)                                  = 0x1c47000
+brk(0x1c68000)                          = 0x1c68000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=11527968, ...}) = 0
+mmap(NULL, 11527968, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f8b81bd1000
+close(3)                                = 0
+pipe2([3, 4], O_CLOEXEC)                = 0
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fcntl(4, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fcntl(3, F_GETFL)                       = 0 (flags O_RDONLY)
+fcntl(3, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+fcntl(4, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fcntl(4, F_SETFL, O_WRONLY|O_NONBLOCK)  = 0
+pipe2([5, 6], O_CLOEXEC)                = 0
+fcntl(5, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fcntl(6, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fcntl(5, F_GETFL)                       = 0 (flags O_RDONLY)
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+fcntl(6, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fcntl(6, F_SETFL, O_WRONLY|O_NONBLOCK)  = 0
+sendto(4, "W", 1, MSG_NOSIGNAL, NULL, 0) = -1 ENOTSOCK (Socket operation on non-socket)
+write(4, "W", 1)                        = 1
+rt_sigaction(SIGINT, {0x7f8b858ac5a0, [], SA_RESTORER|SA_RESTART, 0x7f8b84fab340}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x7f8b858ac5a0, [], SA_RESTORER|SA_RESTART, 0x7f8b84fab340}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f8b84fab340}, NULL, 8) = 0
+open("/home/smooker/.pulse/client.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/smooker/.config/pulse/client.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/pulse/client.conf", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1269, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cf5000
+read(7, "# This file is part of PulseAudi"..., 4096) = 1269
+read(7, "", 4096)                       = 0
+open("/home/smooker/.config/pulse/cookie", O_RDONLY|O_NOCTTY|O_CLOEXEC) = 8
+fcntl(8, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fcntl(8, F_SETLKW, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}) = -1 EBADF (Bad file descriptor)
+fcntl(8, F_SETLKW, {type=F_RDLCK, whence=SEEK_SET, start=0, len=0}) = 0
+read(8, "\232\6\3735O\353\\sG\17sp\244\2n\254\262\321\257G\353#\16\350Y\236+\371HO\356Y"..., 256) = 256
+fcntl(8, F_SETLKW, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+close(8)                                = 0
+close(7)                                = 0
+munmap(0x7f8b85cf5000, 4096)            = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 7
+connect(7, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+getpeername(7, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, [20]) = 0
+uname({sys="Linux", node="smoolap", ...}) = 0
+access("/home/smooker/.Xauthority", R_OK) = 0
+open("/home/smooker/.Xauthority", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0600, st_size=156, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cf5000
+read(8, "\1\0\0\7smoolap\0\0011\0\22MIT-MAGIC-COOKIE"..., 4096) = 156
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+munmap(0x7f8b85cf5000, 4096)            = 0
+getsockname(7, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+fcntl(7, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(7, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+poll([{fd=7, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=7, revents=POLLOUT}])
+writev(7, [{"l\0\v\0\0\0\22\0\20\0\0\0", 12}, {"", 0}, {"MIT-MAGIC-COOKIE-1", 18}, {"\0\0", 2}, {"\216\30\314\340n\200\201\264\356\361oAs\24\263\370", 16}, {"", 0}], 6) = 48
+recvfrom(7, 0x1c4a660, 8, 0, 0, 0)      = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=7, events=POLLIN}], 1, 4294967295) = 1 ([{fd=7, revents=POLLIN}])
+recvfrom(7, "\1\0\v\0\0\0\303\0", 8, 0, NULL, NULL) = 8
+recvfrom(7, "\10\213\262\0\0\0\0\4\377\377\37\0\0\1\0\0\24\0\377\377\1\7\0\0  \10\377\0\0\0\0"..., 780, 0, NULL, NULL) = 780
+poll([{fd=7, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=7, revents=POLLOUT}])
+writev(7, [{"\20\0\5\0\f\0\0\0PULSE_SERVER", 20}], 1) = 20
+poll([{fd=7, events=POLLIN}], 1, 4294967295) = 1 ([{fd=7, revents=POLLIN}])
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\1\0\0\0\0\0{\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=7, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=7, revents=POLLOUT}])
+writev(7, [{"\24\0\6\0\230\0\0\0{\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+poll([{fd=7, events=POLLIN}], 1, 4294967295) = 1 ([{fd=7, revents=POLLIN}])
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\2\0#\0\0\0\37\0\0\0\0\0\0\0\212\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 172
+poll([{fd=7, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=7, revents=POLLOUT}])
+writev(7, [{"\20\0\6\0\20\0\0\0PULSE_SESSION_ID", 24}], 1) = 24
+poll([{fd=7, events=POLLIN}], 1, 4294967295) = 1 ([{fd=7, revents=POLLIN}])
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\3\0\0\0\0\0\366\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=7, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=7, revents=POLLOUT}])
+writev(7, [{"\24\0\6\0\230\0\0\0\366\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+poll([{fd=7, events=POLLIN}], 1, 4294967295) = 1 ([{fd=7, revents=POLLIN}])
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\4\0\1\0\0\0\37\0\0\0\0\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 36
+poll([{fd=7, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=7, revents=POLLOUT}])
+writev(7, [{"\20\0\5\0\n\0\0\0PULSE_SINK\0\0", 20}], 1) = 20
+poll([{fd=7, events=POLLIN}], 1, 4294967295) = 1 ([{fd=7, revents=POLLIN}])
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\5\0\0\0\0\0|\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=7, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=7, revents=POLLOUT}])
+writev(7, [{"\24\0\6\0\230\0\0\0|\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+poll([{fd=7, events=POLLIN}], 1, 4294967295) = 1 ([{fd=7, revents=POLLIN}])
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=7, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=7, revents=POLLOUT}])
+writev(7, [{"\20\0\5\0\f\0\0\0PULSE_SOURCE", 20}], 1) = 20
+poll([{fd=7, events=POLLIN}], 1, 4294967295) = 1 ([{fd=7, revents=POLLIN}])
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\7\0\0\0\0\0}\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=7, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=7, revents=POLLOUT}])
+writev(7, [{"\24\0\6\0\230\0\0\0}\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+poll([{fd=7, events=POLLIN}], 1, 4294967295) = 1 ([{fd=7, revents=POLLIN}])
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=7, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=7, revents=POLLOUT}])
+writev(7, [{"\20\0\5\0\f\0\0\0PULSE_COOKIE", 20}], 1) = 20
+poll([{fd=7, events=POLLIN}], 1, 4294967295) = 1 ([{fd=7, revents=POLLIN}])
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\t\0\0\0\0\0~\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=7, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=7, revents=POLLOUT}])
+writev(7, [{"\24\0\6\0\230\0\0\0~\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+poll([{fd=7, events=POLLIN}], 1, 4294967295) = 1 ([{fd=7, revents=POLLIN}])
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\n\0\200\0\0\0\37\0\0\0\0\0\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 544
+shutdown(7, SHUT_RDWR)                  = 0
+close(7)                                = 0
+openat(AT_FDCWD, "/dev/shm/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 22 entries */, 32768)    = 848
+statfs("/dev/shm/", {f_type=0x1021994, f_bsize=4096, f_blocks=480172, f_bfree=479997, f_bavail=479997, f_files=480172, f_ffree=480151, f_fsid={0, 0}, f_namelen=255, f_frsize=4096}) = 0
+futex(0x7f8b84f9a370, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/dev/shm/pulse-shm-100263818", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4605, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-3739568647", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4594, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-825360485", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4551, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-3187825415", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4488, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-1903866283", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4457, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-2730645863", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4413, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-3216592435", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4384, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-1253105921", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4356, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-2054463945", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4265, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-3779500175", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4252, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-2201462754", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4205, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-2325193912", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(4073, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-3262632612", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(3534, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-2550630589", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(3449, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-1190434618", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = -1 EACCES (Permission denied)
+open("/dev/shm/pulse-shm-2733385412", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = -1 EACCES (Permission denied)
+open("/dev/shm/pulse-shm-562785335", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(2809, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-2994171147", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(2904, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-4056607914", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(2863, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+open("/dev/shm/pulse-shm-200063577", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 8, 0) = 0x7f8b7dbd0000
+close(8)                                = 0
+kill(2860, SIG_0)                       = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+open("/dev/urandom", O_RDONLY|O_NOCTTY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+read(7, "7\365s\366", 4)                = 4
+close(7)                                = 0
+open("/dev/shm/pulse-shm-4134794551", O_RDWR|O_CREAT|O_EXCL|O_NOFOLLOW|O_CLOEXEC, 0700) = 7
+ftruncate(7, 67108904)                  = 0
+mmap(NULL, 67112960, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_NORESERVE, 7, 0) = 0x7f8b7dbd0000
+close(7)                                = 0
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cf5000
+read(7, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f8b85cf5000, 4096)            = 0
+open("/usr/share/locale/en_US/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+readlink("/proc/self/exe", "/usr/bin/pactl", 99) = 14
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 7, 0) = 0x7f8b85cef000
+close(7)                                = 0
+futex(0x7f8b84883a70, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getuid()                                = 1000
+open("/etc/machine-id", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/var/lib/dbus/machine-id", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=33, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cee000
+read(7, "70b7bec28132daf371068f685624d51c"..., 4096) = 33
+close(7)                                = 0
+munmap(0x7f8b85cee000, 4096)            = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+setsockopt(7, SOL_SOCKET, SO_PRIORITY, [6], 4) = 0
+fcntl(7, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(7, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+connect(7, {sa_family=AF_LOCAL, sun_path="/run/user/1000/pulse/native"}, 110) = 0
+write(4, "W", 1)                        = 1
+write(4, "W", 1)                        = 1
+read(3, "WWW", 10)                      = 3
+getsockopt(7, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+fcntl(7, F_GETFL)                       = 0x802 (flags O_RDWR|O_NONBLOCK)
+write(4, "W", 1)                        = 1
+write(4, "W", 1)                        = 1
+setsockopt(7, SOL_SOCKET, SO_RCVBUF, [65472], 4) = 0
+setsockopt(7, SOL_SOCKET, SO_SNDBUF, [65472], 4) = 0
+getsockname(7, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+setsockopt(7, SOL_SOCKET, SO_PASSCRED, [1], 4) = 0
+getuid()                                = 1000
+getgid()                                = 1000
+write(4, "W", 1)                        = 1
+write(4, "W", 1)                        = 1
+read(3, "WWWW", 10)                     = 4
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN|POLLOUT}, {fd=5, events=POLLIN}], 3, {29, 999909000}, NULL, 8) = 1 ([{fd=7, revents=POLLOUT}], left {29, 999906701})
+write(4, "W", 1)                        = 1
+sendmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\1\24\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=4807, uid=1000, gid=1000}}, msg_flags=0}, MSG_NOSIGNAL) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN|POLLOUT}, {fd=5, events=POLLIN}], 3, {29, 999668000}, NULL, 8) = 1 ([{fd=7, revents=POLLOUT}], left {29, 999666570})
+write(4, "W", 1)                        = 1
+sendto(7, "L\0\0\0\10L\0\0\0\0L\200\0\0\34x\0\0\1\0\232\6\3735O\353\\sG\17sp"..., 276, MSG_NOSIGNAL, NULL, 0) = 276
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN|POLLOUT}, {fd=5, events=POLLIN}], 3, {29, 999446000}, NULL, 8) = 1 ([{fd=7, revents=POLLIN|POLLOUT}], left {29, 999444569})
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\17\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, {29, 999192000}, NULL, 8) = 1 ([{fd=7, revents=POLLIN}], left {29, 999190414})
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"L\0\0\0\2L\0\0\0\0L\200\0\0\34", 15}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 15
+write(4, "W", 1)                        = 1
+getuid()                                = 1000
+getuid()                                = 1000
+uname({sys="Linux", node="smoolap", ...}) = 0
+readlink("/proc/self/exe", "/usr/bin/pactl", 99) = 14
+open("/etc/machine-id", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/var/lib/dbus/machine-id", O_RDONLY|O_CLOEXEC) = 8
+fcntl(8, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(8, {st_mode=S_IFREG|0644, st_size=33, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cee000
+read(8, "70b7bec28132daf371068f685624d51c"..., 4096) = 33
+close(8)                                = 0
+munmap(0x7f8b85cee000, 4096)            = 0
+write(4, "W", 1)                        = 1
+write(4, "W", 1)                        = 1
+sendto(7, "\0\0\1\240\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20, MSG_NOSIGNAL, NULL, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WWWWW", 10)                    = 5
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN|POLLOUT}, {fd=5, events=POLLIN}], 3, {29, 999825000}, NULL, 8) = 1 ([{fd=7, revents=POLLOUT}], left {29, 999822572})
+write(4, "W", 1)                        = 1
+sendto(7, "L\0\0\0\tL\0\0\0\1Ptapplication.process."..., 416, MSG_NOSIGNAL, NULL, 0) = 416
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN|POLLOUT}, {fd=5, events=POLLIN}], 3, {29, 999602000}, NULL, 8) = 1 ([{fd=7, revents=POLLIN|POLLOUT}], left {29, 999600878})
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\17\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, {29, 999315000}, NULL, 8) = 1 ([{fd=7, revents=POLLIN}], left {29, 999313374})
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"L\0\0\0\2L\0\0\0\1L\0\0\0;", 15}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 15
+write(4, "W", 1)                        = 1
+write(4, "W", 1)                        = 1
+write(4, "W", 1)                        = 1
+sendto(7, "\0\0\0\17\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0L\0\0\0#L\0\0\0\2L\0"..., 35, MSG_NOSIGNAL, NULL, 0) = 35
+write(4, "W", 1)                        = 1
+read(3, "WWWWW", 10)                    = 5
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN|POLLOUT}, {fd=5, events=POLLIN}], 3, {29, 999823000}, NULL, 8) = 1 ([{fd=7, revents=POLLIN|POLLOUT}], left {29, 999821316})
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\n\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, {29, 999597000}, NULL, 8) = 1 ([{fd=7, revents=POLLIN}], left {29, 999595063})
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"L\0\0\0\2L\0\0\0\2", 10}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 10
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\24\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"L\0\0\0BL\377\377\377\377L\0\0\0\2L\0\0\0\26", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 16), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8b85cee000
+write(1, "Event 'new' on sink-input #22\n", 30) = 30
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\24\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"L\0\0\0BL\377\377\377\377L\0\0\0\22L\0\0\0\26", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+write(1, "Event 'change' on sink-input #22"..., 33) = 33
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\24\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"L\0\0\0BL\377\377\377\377L\0\0\0\20L\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+write(1, "Event 'change' on sink #0\n", 26) = 26
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\24\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"L\0\0\0BL\377\377\377\377L\0\0\0\3L\0\0\0\31", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+write(1, "Event 'new' on source-output #25"..., 33) = 33
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\24\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"L\0\0\0BL\377\377\377\377L\0\0\0\22L\0\0\0\26", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+write(1, "Event 'change' on sink-input #22"..., 33) = 33
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\24\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"L\0\0\0BL\377\377\377\377L\0\0\0\20L\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+write(1, "Event 'change' on sink #0\n", 26) = 26
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\24\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"L\0\0\0BL\377\377\377\377L\0\0\0#L\0\0\0\31", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+write(1, "Event 'remove' on source-output "..., 36) = 36
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"\0\0\0\24\377\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=7, revents=POLLIN}])
+write(4, "W", 1)                        = 1
+recvmsg(7, {msg_name(0)=NULL, msg_iov(1)=[{"L\0\0\0BL\377\377\377\377L\0\0\0\"L\0\0\0\26", 20}], msg_controllen=32, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS{pid=2860, uid=1000, gid=1000}}, msg_flags=0}, 0) = 20
+write(4, "W", 1)                        = 1
+write(1, "Event 'remove' on sink-input #22"..., 33) = 33
+read(3, "WW", 10)                       = 2
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+sendto(6, "\2\0\0\0", 4, MSG_NOSIGNAL, NULL, 0) = -1 ENOTSOCK (Socket operation on non-socket)
+write(6, "\2\0\0\0", 4)                 = 4
+rt_sigreturn()                          = -1 EINTR (Interrupted system call)
+ppoll([{fd=3, events=POLLIN}, {fd=7, events=POLLIN}, {fd=5, events=POLLIN}], 3, NULL, NULL, 8) = 1 ([{fd=5, revents=POLLIN}])
+read(5, "\2\0\0\0", 4)                  = 4
+write(2, "Got SIGINT, exiting.\n", 21)  = 21
+write(4, "W", 1)                        = 1
+write(4, "W", 1)                        = 1
+close(7)                                = 0
+munmap(0x7f8b7dbd0000, 67112960)        = 0
+unlink("/dev/shm/pulse-shm-4134794551") = 0
+rt_sigaction(SIGTERM, {SIG_DFL, [], SA_RESTORER, 0x7f8b84fab340}, NULL, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f8b84fab340}, NULL, 8) = 0
+write(4, "W", 1)                        = 1
+close(5)                                = 0
+close(6)                                = 0
+close(3)                                = 0
+close(4)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
